@@ -1,14 +1,20 @@
 <div class="">
   <form class="" action="" method="">
-    <div class="row">
-      <div class="col-sm-6">
-        <input type="text" placeholder="First Name" name="fname">
-      </div>
-      <div class="col-sm-6">
-        <input type="text" placeholder="Surname" name="lname">
-      </div>
+    <input type="text" placeholder="First Name" name="fname" class="signup-input small-in small-in mr-2">
+    <input type="text" placeholder="Surname" name="lname" class="signup-input small-in ml-4">
+    <input type="text" name="email" placeholder="Mobile number or email address" class="signup-input large-in" >
+    <input type="password" name="password" placeholder="New Password" class="signup-input large-in">
+    <div class="">
+      <div>Birthday</div>
+      <input type="date" name="dob" class="signup-input">
     </div>
-    <input type="text" name="email" placeholder="Mobile number or email address">
-    <input type="password" name="password" placeholder="New Password">
+    <div class="">
+      <input type="radio" name="gender" value="female" class="radio-btn"><span class="radio-txt mx-2">Female</span>
+      <input type="radio" name="gender" value="male" class="radio-btn"><span class="radio-txt mx-2">Male</span>
+    </div>
+    <p class="tnc">
+      By clicking Sign Up, you agree to our Terms, Data Policy and Cookie Policy. You may receive SMS notifications from us and can opt out at any time.
+    </p>
+    <input type="submit" name="signup" value="Sign up" class="signup-btn">
   </form>
 </div>
