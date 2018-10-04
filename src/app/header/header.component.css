@@ -1,0 +1,11 @@
+.header {
+  background-color: #3B5998;
+  padding: 15pt;
+}
+
+.title {
+  color: #ffffff;
+  margin: 0;
+  font-size: 30pt;
+  font-family:"lucida grande",tahoma,verdana,arial,sans-serif;
+}
