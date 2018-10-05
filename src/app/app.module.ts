@@ -6,6 +6,7 @@ import { HeaderComponent } from './header/header.component';
 import { ContentComponent } from './content/content.component';
 import { LoginFormComponent } from './login-form/login-form.component';
 import { SignupFormComponent } from './signup-form/signup-form.component';
+import { SubmitBtnComponent } from './submit-btn/submit-btn.component';
 
 @NgModule({
   declarations: [
@@ -13,7 +14,8 @@ import { SignupFormComponent } from './signup-form/signup-form.component';
     HeaderComponent,
     ContentComponent,
     LoginFormComponent,
-    SignupFormComponent
+    SignupFormComponent,
+    SubmitBtnComponent
   ],
   imports: [
     BrowserModule

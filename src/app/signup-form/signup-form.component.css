@@ -1,7 +1,7 @@
 .signup-input {
   display: inline-block;
-  font-size: 18px;
-  padding: 8px 10px;
+  font-size: 16px;
+  padding: 6px 8px;
   border: 1px solid #bdc7d8;
   -webkit-border-radius: 5px;
   color:#333;
@@ -30,27 +30,4 @@
   color: #777;
   width:316px;
   margin: 11px 0 11px ;
-}
-
-.signup-btn {
-  font-size: 19px;
-  font-weight: 700;
-  letter-spacing: 1px;
-  color:#fff;
-  min-width: 194px;
-  padding: 7px 20px;
-  text-align: center;
-  -webkit-border-radius: 5px;
-  background: -webkit-linear-gradient(#67ae55, #578843);
-  -webkit-box-shadow: inset 0 1px 1px #a4e388;
-  border: 1px solid;
-  border-color: #3b6e22 #3b6e22 #2c5115;
-  margin-top: 10px;
-  margin-bottom: 6px;
-  text-shadow: 0 1px 2px rgba(0,0,0,.5);
-  cursor:pointer;
-}
-
-.signup-btn:hover {
-  background: -webkit-linear-gradient(#79bc64, #578843);
 }

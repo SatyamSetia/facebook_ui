@@ -1,0 +1,36 @@
+.signup-btn {
+  font-size: 19px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  color:#fff;
+  min-width: 194px;
+  padding: 7px 20px;
+  text-align: center;
+  -webkit-border-radius: 5px;
+  background: -webkit-linear-gradient(#67ae55, #578843);
+  -webkit-box-shadow: inset 0 1px 1px #a4e388;
+  border: 1px solid;
+  border-color: #3b6e22 #3b6e22 #2c5115;
+  margin-top: 8px;
+  margin-bottom: 6px;
+  text-shadow: 0 1px 2px rgba(0,0,0,.5);
+  cursor:pointer;
+}
+
+.signup-btn:hover {
+  background: -webkit-linear-gradient(#79bc64, #578843);
+}
+
+.login-btn {
+  width:45px;
+  height:25px;
+  background-color: #5b72a9;
+  border: 1px solid #999;
+  border-color:#8b9dc3 #2f477a #29447e #1a356e;
+  -webkit-box-shadow: 0 1px 0 rgba(0, 0, 0, .1);
+  cursor:pointer;
+  font-size:11px;
+  font-weight:bold;
+  text-align:center;
+  color:#fff;
+}

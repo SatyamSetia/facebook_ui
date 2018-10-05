@@ -6,8 +6,13 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./signup-form.component.css']
 })
 export class SignupFormComponent implements OnInit {
-
-  constructor() { }
+  signupBtn: any;
+  constructor() {
+    this.signupBtn = {
+      btnName: 'Signup',
+      btnClass: 'signup-btn'
+    }
+  }
 
   ngOnInit() {
   }
